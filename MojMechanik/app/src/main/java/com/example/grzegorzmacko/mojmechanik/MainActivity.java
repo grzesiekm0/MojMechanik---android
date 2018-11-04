@@ -14,11 +14,17 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     Button button1;
+
+    Button buttonSignIn;
+    TextView appDescription;
+    EditText userLogin, userPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +38,14 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startSecondActivity();
+            }
+        });
+
+        buttonSignIn = (Button) findViewById(R.id.buttonSignIn);
+        buttonSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                
             }
         });
 
