@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.grzegorzmacko.mojmechanik.RegistrationActivity">
+
+    <Button
+        android:id="@+id/buttonSignOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:text="Sign on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <EditText
+        android:id="@+id/userRegEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteY="307dp"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/userRegPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hasło"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="362dp"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/userRegFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Imię"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteY="193dp"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/userRegLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nazwisko"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteY="248dp"
+        tools:layout_editor_absoluteX="85dp" />
+</android.support.constraint.ConstraintLayout>
