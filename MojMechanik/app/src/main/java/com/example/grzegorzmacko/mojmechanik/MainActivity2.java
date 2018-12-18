@@ -17,7 +17,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity2 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     Button button1;
@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void startSecondActivity(){
-        Intent myIntent = new Intent(MainActivity.this, RegActivity.class);
-        MainActivity.this.startActivity(myIntent);
+        Intent myIntent = new Intent(MainActivity2.this, RegActivity.class);
+        MainActivity2.this.startActivity(myIntent);
     }
 
     @Override
